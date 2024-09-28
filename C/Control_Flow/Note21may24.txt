@@ -1,0 +1,90 @@
+/chapter-3/Karnighan-Ritche
+
+
+
+
+
+**CONTROL FLOW**
+
+1*Statements and Blocks*
+.....................
+    x = 10;
+    printf(....);
+    scanf(....);
+    --- are called Statements
+    the semicolon is a statement terminator.
+
+
+2*IF - ELSE*
+...........
+    if (expression)
+        ..statement1..
+    else
+        ..statement2..
+
+3*ELSE - IF*
+...........
+    if (expression)
+        ..statement..
+    else if (expression)
+        ..statement..
+    else if (expression)
+        ..statement..
+    else if (expression)
+        ..statement..
+    else if (expression)
+        ..statement..
+    else if (expression)
+        ..statement..
+    else(optional)
+        ..statement..
+
+4*Switch*
+.........
+    switch (expression) {
+        case const-expressions: statement
+        case const-expressions: statement
+        case const-expressions: statement
+        default: statement
+    }
+
+5*For-while-loop*
+.................
+    while (expression){
+        statement
+    }
+
+    for (exp1; exp2; exp3){
+        statement
+    }
+
+    for loop is basically a spacial while loop where,
+
+    exp1;
+    while (exp2){
+        statement;
+        exp3;
+    }
+
+6*Do-while-loop*
+................
+
+    do 
+        statement
+    while (expression)
+
+    The statement is executed then expression is evaluated. If it is true, statement is evaluated again, and so on.
+
+7*Break_and_Continue*
+
+8*Goto_and_labels*
+    goto error;
+
+    error: statement
+
+
+
+
+
+**FUNCTION AND PROGRAM STRUCTURE**
+

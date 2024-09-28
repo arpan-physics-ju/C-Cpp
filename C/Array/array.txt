@@ -1,0 +1,8 @@
+Collection of simmilar data types stored at contiguous memory location >>>> is called array.
+
+int name[quantity] = {...,....,....,......};
+
+C/C++ = 0 based array system
+
+scanf("%d",&marks[0]);
+printf("%d",marks[0]);
